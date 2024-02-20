@@ -5,8 +5,8 @@ public class Main {
     public static HashMap<Long, BigInteger> memo = new HashMap<>();
 
     public static void main(String[] args) {
-        for (int i = 0; i <= 100; i++) {
-            System.out.println(i + " Fib: " + fibonacci(i));
+        for (int i = 1; i <= 50; i++) {
+            System.out.println(fibonacci(i) + " ");
         }
     }
 
